@@ -1,10 +1,19 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .body-bg {
     background-image: url('geo-bg.jpg');
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .bct-net-tree {
-    height: 100vh;
-    float: right;
+    height: 95vh;
 }
 
 .first {
